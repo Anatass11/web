@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>$Title$</title>
+  <link rel="stylesheet" href="./task4.css">
+  <title>Заметки</title>
 </head>
 <body>
-$END$
+<div class="conm1">
+  <form class="con2" id="input">
+    <label>Имя <input type="text" id="name" required></label>
+    <label>Описание <input type="text" id="text" required></label>
+    <label>Ссылка на изображение <input type="text" id="src" required></label>
+    <label>Код товара <input type="text" id="code" required></label>
+    <label>Поставщик <input type="text" id="post" required></label>
+    <input type="submit"/>
+  </form>
+  <div class="con">
+    <div class="but">
+      <button id="refresh" disabled>Сохранить изменения</button>
+    </div>
+    <div id="containers" class="con1">
+
+    </div>
+  </div>
+
+</div>
+<script src="task4.js"></script>
 </body>
 </html>
