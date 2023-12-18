@@ -1,0 +1,87 @@
+body{
+    background-color: lightgreen;
+}
+
+
+label{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+input{
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+input:hover{
+    background-color: orange;
+}
+
+button{
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+select{
+    background-color: greenyellow;
+    color: darkgreen;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.conm{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+    outline: 3px solid #000;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+}
+
+.conm1{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgreen;
+}
+
+
+.con{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.con1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: auto;
+    max-height: 700px;
+}
+
+.con2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.but{
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+img{
+    width: 130px;
+    height: 130px;
+}
+

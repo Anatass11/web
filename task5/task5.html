@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="./task5.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <title>Фильмы</title>
+</head>
+<body>
+<div class="conm1">
+  <form class="con2" id="input">
+    <label>Название <input type="text" id="name" required></label>
+    <label>Год выпуска <input type="text" id="year" required></label>
+    <label>Описание <input type="text" id="text" required></label>
+    <label>Ссылка на обложку <input type="text" id="src" required></label>
+    <label>Рейтинг <input type="text" id="rate" required></label>
+    <label>Актёры <input type="text" id="act" required></label>
+    <label>Режисер <input type="text" id="rej" required></label>
+    <input type="submit"/>
+  </form>
+  <div class="con">
+    <div class="but">
+      <button id="refresh" disabled>Сохранить изменения</button>
+    </div>
+    <div class="but" id="search">
+      <select id="type" name="type">
+        <option value="name">Название</option>
+        <option value="year">Год</option>
+        <option value="text">Описание</option>
+        <option value="rate">Рейтинг</option>
+        <option value="act">Актёры</option>
+        <option value="rej">Режисер</option>
+      </select>
+      <input type="text" id="stext" required>
+      <button id="find">Поиск</button>
+    </div>
+    <button id="back" hidden>Назад</button>
+    <div id="containers" class="con1">
+
+    </div>
+  </div>
+  <div id="router">
+
+  </div>
+</div>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script src="https://unpkg.com/antd@5.12.2/dist/antd-with-locales.js"></script>
+<!-- Примечание: при деплое на продакшен замените «development.js» на «production.min.js». -->
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-router@6.21.0/dist/umd/react-router.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-router-dom@6.21.0/dist/umd/react-router-dom.development.js" crossorigin></script>
+<script type="text/babel" src="task5.js"></script>
+</body>
+</html>

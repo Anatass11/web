@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.21.0",
+    "react-router": "^6.21.0",
+    "antd": "^5.12.2"
+  },
+  "name": "web_test",
+  "description": "![Image alt](https://github.com/Anatass11/web/raw/main/src/img/unknown.png)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.6"
+  }
+}
