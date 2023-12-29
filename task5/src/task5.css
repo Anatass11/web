@@ -1,5 +1,6 @@
 body{
     background-color: lightgreen;
+    overflow: hidden;
 }
 
 
@@ -11,7 +12,8 @@ label{
     font-family: 'Comic Sans MS', sans-serif;
 }
 
-input{
+.in{
+    width: 180px;
     background-color: greenyellow;
     color: darkgreen;
 }
@@ -20,12 +22,12 @@ input:hover{
     background-color: orange;
 }
 
-button{
+.butt{
     background-color: greenyellow;
     color: darkgreen;
 }
 
-select{
+.sel{
     background-color: greenyellow;
     color: darkgreen;
 }
@@ -51,6 +53,7 @@ button:hover{
 }
 
 
+
 .con{
     width: 100%;
     display: flex;
@@ -73,6 +76,7 @@ button:hover{
     flex-direction: column;
     gap: 10px;
 }
+
 
 .but{
     margin-left: auto;
